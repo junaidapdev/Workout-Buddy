@@ -4,7 +4,7 @@ const express = require("express")
 const router = express.Router()
 
 // GET all Workouts
-router.get('/', (res, req) => {
+router.get('/', (req, res) => {
     res.json({msg: "Get all Workouts"})
 })
 
